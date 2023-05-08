@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+}
+
+.game {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 450px;
+  height: 600px;
+  border: 1px solid white;
+}
+
+.game p {
+  display: flex;
+  justify-content: center;
+}
+
+.js-score {
+  margin-bottom: 40px;
+}
+
+.js-moves {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  gap: 20px;
+}
+
+.reset-autoplay-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.choosing {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.reset-score-button,
+.autoplay-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  width: 160px;
+  height: 60px;
+  font-size: 20px;
+  font-family: arial;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.reset-score-button:hover,
+.autoplay-button:hover {
+  background-color: orange;
+  color: white;
+}
